@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: msPizzaOrderService
+netty:
+  default:
+    allocator:
+      max-order: 3
