@@ -2,7 +2,7 @@ name: Java CI with Gradle (Kotlin)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ feature* ]
   pull_request:
     branches: [ main ]
 
