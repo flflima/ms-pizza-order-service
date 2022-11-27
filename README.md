@@ -16,4 +16,11 @@
 
 - [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
 
+## Running
+```shell
+./gradlew clean build
 
+docker build --pull --no-cache -t ms-pizza-order-service:latest .
+
+docker run -p 8080:8080 ms-pizza-order-service:latest
+```
